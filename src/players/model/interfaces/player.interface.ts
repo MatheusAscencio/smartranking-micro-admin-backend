@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { Document } from "mongoose";
-import { Category } from "../categories/category.interface"
+import { Category } from "src/categories/model/interfaces/category.interface";
+
 
 export interface Player extends Document {
     readonly email: string;

@@ -1,7 +1,7 @@
 import { Controller, Logger } from '@nestjs/common';
 import { Payload, EventPattern, MessagePattern } from '@nestjs/microservices';
 import { AppService } from './app.service';
-import { Category } from './interfaces/categories/category.interface';
+import { Category } from './categories/model/interfaces/category.interface';
 
 @Controller()
 export class AppController {
