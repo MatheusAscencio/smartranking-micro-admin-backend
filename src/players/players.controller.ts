@@ -2,7 +2,7 @@ import { Controller, Logger } from '@nestjs/common';
 import { Ctx, EventPattern, MessagePattern, Payload, RmqContext } from '@nestjs/microservices';
 import { Player } from './model/interfaces/player.interface';
 import { PlayersService } from './players.service';
-import { PlayerDTO } from '../../../smartranking-api-gateway/src/players/model/DTOs/player.dto';
+import { PlayerDTO } from '../../../smartranking-api-gateway/src/players/model/dtos/player.dto';
 import { CustomValidationPipe2 } from './pipes/custom-validation.pipe';
 
 const AckErrors: Array<string> = ["E11000"]

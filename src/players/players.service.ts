@@ -3,7 +3,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Player } from './model/interfaces/player.interface';
 import { RpcException } from '@nestjs/microservices';
-import { PlayerDTO } from '../../../smartranking-api-gateway/src/players/model/DTOs/player.dto';
+import { PlayerDTO } from '../../../smartranking-api-gateway/src/players/model/dtos/player.dto';
 
 @Injectable()
 export class PlayersService {
